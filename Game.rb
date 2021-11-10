@@ -25,7 +25,6 @@ class Game
     end 
 
     def start 
-        p "Computer guesses" , Computer.show_computer_guesses
         get_user_details
         prompt = TTY::Prompt.new
         choices = 'Do you want to guess or let the computer guess your combination?'
